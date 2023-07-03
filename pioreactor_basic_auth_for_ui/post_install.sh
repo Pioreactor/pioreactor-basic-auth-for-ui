@@ -9,7 +9,7 @@ export LC_ALL=C
 sudo apt-get install apache2-utils -y
 
 # write a basic auth mod for lighttp
-sudo cat > /etc/lighttpd/conf-available/98-basic-auth.conf <<EOL
+cat <<EOL | sudo tee /etc/lighttpd/conf-available/98-basic-auth.conf
 server.modules += ("mod_auth", "mod_authn_file")
 auth.backend = "htpasswd"
 auth.backend.htpasswd.userfile = "/etc/lighttpd.user.htpasswd"
