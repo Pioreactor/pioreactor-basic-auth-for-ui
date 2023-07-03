@@ -6,7 +6,7 @@ from setuptools import setup
 
 setup(
     name="pioreactor-basic-auth-for-ui",
-    version="0.0.1",
+    version="0.0.2",
     license_files=("LICENSE.txt",),
     description="Adding basic auth to the Pioreactor UI",
     long_description=open("README.md").read(),
@@ -16,5 +16,7 @@ setup(
     url="",
     packages=find_packages(),
     include_package_data=True,
-    entry_points={"pioreactor.plugins": "pioreactor_basic_auth_for_ui = pioreactor_basic_auth_for_ui"},
+    entry_points={
+        "pioreactor.plugins": "pioreactor_basic_auth_for_ui = pioreactor_basic_auth_for_ui"
+    },
 )
