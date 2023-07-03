@@ -18,7 +18,3 @@ EOL
 
 # enable mod
 sudo lighttpd-enable-mod basic-auth
-
-# user next needs to run a pio command
-echo "Next, execute:"
-echo "pio run change_ui_credentials <username> <password>"
