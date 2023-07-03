@@ -17,5 +17,6 @@ pio install-plugin pioreactor-basic-auth-for-ui
 ```
 pio run change_ui_credentials <ui_username> <ui_password>
 ```
-3. Refresh the UI and you should be greeted with a pop up.
-4. Finally, you should restart the leader now, or later.
+4. Refresh the UI and you should be greeted with a pop up.
+5. Add the API key from `pio run change_ui_credentials` to your config.ini
+6. Finally, you should restart the leader now, or later.
