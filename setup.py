@@ -6,7 +6,7 @@ from setuptools import setup
 
 setup(
     name="pioreactor-basic-auth-for-ui",
-    version="0.0.2",
+    version="0.0.3",
     license_files=("LICENSE.txt",),
     description="Adding basic auth to the Pioreactor UI",
     long_description=open("README.md").read(),
